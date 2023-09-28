@@ -5,12 +5,43 @@ body {
   font-weight: 400;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  color: currentColor;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 /* Header */
 .header {
@@ -40,14 +71,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-navigation-link:hover {
-  color: #404bbf;
-  text-decoration: underline;
-}
+.header-navigation-link:hover,
 .header-navigation-link:focus {
   color: #404bbf;
   text-decoration: underline;
 }
+
 .header-address {
   font-style: normal;
 }
@@ -62,12 +91,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-address-link:hover {
-  color: #404bbf;
-}
+.header-address-link:hover,
 .header-address-link:focus {
   color: #404bbf;
 }
+
 /* Hero */
 .hero {
   background-color: #2e2f42;
@@ -89,12 +117,11 @@ a {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.hero-btn:hover {
-  background-color: #404bbf;
-}
+.hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
 }
+
 /* Benefits */
 .benefits {
 }
