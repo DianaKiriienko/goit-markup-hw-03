@@ -79,6 +79,7 @@ img {
   gap: 40px;
 }
 .header-navigation-item {
+  padding: 24px 0;
 }
 .header-navigation-link {
   color: #2e2f42;
@@ -86,7 +87,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 .header-navigation-link:hover,
 .header-navigation-link:focus {
